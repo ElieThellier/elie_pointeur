@@ -2,9 +2,8 @@
 #include"pointeur.h"
 
 int main(){
-    char pomme[] = "pomme";
-    char* p_pomme = &pomme;
-    printf("%d\n",len(p_pomme));
+    char *pomme = "pomme";
+    printf("%d\n",len(pomme));
     printf("%d\n",len("pomme"));
     printf("%d\n",len("Melenchon"));
     
