@@ -11,11 +11,10 @@ int main(){
 }
 
 int len(char* s){
-    char* carac = s;
     int compteur = 0;
-    while (*carac != '\0'){
+    while (*s != '\0'){
         compteur++;
-        carac=carac+1;
+        s=s+1;
     }
     return compteur;
 }
