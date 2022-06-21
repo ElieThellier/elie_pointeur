@@ -14,7 +14,7 @@ int len(char* s){
     int compteur = 0;
     while (*s != '\0'){
         compteur++;
-        s=s+1;
+        s=s+1; // <=> s++, On peut aussi mettre le s++ dans la boucle
     }
     return compteur;
 }
